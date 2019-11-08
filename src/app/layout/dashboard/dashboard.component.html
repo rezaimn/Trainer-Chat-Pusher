@@ -1,0 +1,21 @@
+
+<div class="message-container  " id="messages-view">
+<div class="row " *ngFor="let message of messages">
+  <div class=" col-lg-5 col-md-4 col-sm-2 col-xs-12" *ngIf="currentUser.id==message.sender.id">
+  </div>
+  <div class=" col-lg-7 col-md-8 col-sm-10 col-xs-12">
+    <div class="card"   [ngClass]="{'my-message':currentUser.id==message.sender.id,
+         'others-message':currentUser.id!=message.sender.id}">
+      <strong style="font-size: 14px">{{message.sender.name}}:  </strong>
+      <p style="word-break: unset">{{ message.text}}</p>
+    </div>
+
+  </div>
+  <div class=" col-lg-5 col-md-4 col-sm-2 col-xs-12" *ngIf="currentUser.id!=message.sender.id">
+  </div>
+</div>
+
+
+
+</div>
+<app-footer></app-footer>

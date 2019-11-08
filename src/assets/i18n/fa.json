@@ -1,0 +1,156 @@
+{
+  "shared": {
+    "yes": "بله",
+    "no": "خیر",
+    "direction": "rtl",
+    "save": "ذخیره",
+    "cancel": "لغو",
+    "edit": "ویرایش",
+    "delete": "حذف",
+    "add": "افزودن",
+    "close": "بستن",
+    "ok": "تایید",
+    "new":"جدید",
+    "all" : "همه",
+    "confirm":"آیا از انجام این عملیات مطمعن هستید؟",
+    "confirm-title":"تایید",
+    "confirm-title-forget":"تایید"
+  },
+  "auth": {
+    "user-name": "نام کاربری",
+    "password": "کلمه عبور",
+    "login": "ورود",
+    "forget-password": "آیا کلمه عبور را فراموش کرده اید؟",
+    "forget-password-message": "نام کاربری خود را وارد کنید کلمه عبور جدید از طریق پیامک برای شما ارسال خواهد شد",
+    "user-name-message": " نام کاربری را وارد کنید ",
+    "password-message-required": "کلمه عبور را وارد کنید",
+    "password-message-length": "کلمه عبور باید حداقل 8 کارکتر باشد",
+    "forget-password-message-er": "نام کاربری را وارد کنید",
+    "new-password-message": "کلمه عبور جدید را وارد کنید",
+    "confirmed-password-message": "کلمه عبور را تکرار کنید",
+    "password-match-message": "کلمه های عبور یکسان نیستند",
+    "get-new-password": "دریافت کلمه عبور از طریق پیامک",
+    "new-password": "کلمه عبور جدید",
+    "confirm-password": "تایید کلمه عبور",
+    "change-password": "تغییر کلمه عبور",
+    "change-pass": "تغییر کلمه عبور",
+    "submit": "ثبت"
+  },
+  "side-bar": {
+    "change-password": "تغییر کلمه عبور",
+    "dashboard": "داشبورد",
+    "appliance-management": "مدیریت  لوازم برقی",
+    "role-management": "مدیریت نقش ها",
+    "account-info": "اطلاعات کاربران",
+    "account-management": "مدیریت کاربران",
+    "setting": "تنظیمات",
+    "type-settings": "تنظیمات نوع",
+    "role-setting": "تنظیمات نقش"
+  },
+  "header": {
+    "profile": "پروفایل",
+    "language": "زبان",
+    "English": "انگلیسی",
+    "French": "فرانسوی",
+    "Urdu": "اردو",
+    "Spanish": "اسپانیایی",
+    "Italian": "ایتالیایی",
+    "Farsi": "فارسی",
+    "German": "آلمانی",
+    "Simplified Chinese": "چینی ساده شده",
+    "settings": "تنظیمات",
+    "inbox": "صندوق ورودی",
+    "log-out": "خروج از سیستم",
+    "pending-task": "وظایف در انتظار",
+    "in-queue": "در صف",
+    "mail": "ایمیل",
+    "view-all": "نمایش همه",
+    "collapse-sidebar": "Collapse Sidebar"
+  },
+  "page-header": {
+    "dashboard":"داشبورد",
+    "account-management": "مدیریت کاربران",
+    "appliance-management": "مدیریت لوازم برقی",
+    "role-setting": "تنظیمات نقش",
+    "role-management": "مدیریت نقش ها",
+    "entity-type-management": "مدیریت نوع موجودیت"
+  },
+  "appliance": {
+    "appliance-management": "مدیریت وسایل",
+    "add": "اضافه کردن وسیله",
+    "type": "نوع",
+    "brand.model": "مارک/مدل",
+    "energy-use": "میزان مصرف انرژی",
+    "energy": "مصرف انرژی",
+    "type-id-message": "نوع وسیله را انتخاب کنید",
+    "brandModel-message": "برند و مدل وسیله را وارد کنید",
+    "energyConsumption-message": "میزان مصرف انرژی را وارد کنید",
+    "energyType-message": "نوع مصرف انرژی را انتخاب کنید",
+    "new": "وسیله جدید",
+    "zero-message": " میزان انرژی باید بیشتر از صفر باشد"
+  },
+  "role-management": {
+  },
+  "setting": {
+    "setting": "تنظیمات",
+    "type": {
+      "type": "انواع موجودیت ها",
+      "faName": "نام فارسی",
+      "enName": "نام انگلیسی",
+      "code": "کد",
+      "Device Types": "انواع دستگاه",
+      "EntityTypes": "انواع دستگاه",
+      "new": "موجودیت جدید",
+      "faNameValidation": "نام فارسی را وارد کنید",
+      "enNameValidation": "نام انگلیسی را وارد کنید",
+      "codeValidation": "کد وسیله را وارد کنید"
+    },
+    "roleSetting": {
+      "add": "اضافه کردن نقش",
+      "new": "نقش جدید",
+      "choose-module": "ماژول مورد نظر خود را انتخاب کنید",
+      "write": "نوشتن",
+      "write-all": "نوشتن همه",
+      "read": "خواندن",
+      "read-all": "خواندن همه",
+      "screenList": "لیست اسکرین ها"
+    },
+    "entities": {
+      "Device Types": "انواع دستگاه ها",
+      "Appliance Types": "انواع وسیله ها"
+    }
+  },
+  "account": {
+    "account-info": "اطلاعات کاربر",
+    "firstName": "نام",
+    "lastName": "نام خانوادگی",
+    "SNN": "کدملی",
+    "mobileNumber": "شماره همراه",
+    "email": "ایمیل",
+    "serialNumber": "شماره سریال ورا",
+    "hardwareKey": "کلید سخت افزاری",
+    "quantity": "تعداد",
+    "deviceName": "نام وسیله",
+    "contract" : "قرارداد",
+    "packageConfig" : "انتخاب پکیج",
+    "statistics" : "آمار",
+    "contractStartDate" : "تاریخ شروع قرارداد",
+    "contractEndDate" : "تاریخ پایان قرارداد",
+    "fromDate" : "از تاریخ",
+    "endDate" : "تا تاریخ",
+    "selectAppliance" : "انتخاب وسیله",
+    "selectVera" : "انتخاب کنترلر",
+    "showStatistics" : "نمایش آمار",
+    "contractStatus" : "وضعیت قرارداد"
+  },
+  "dashboard": {
+    "account-statistics": "آمار حساب کاربری",
+    "deviceType-statistics": "آمار دستگاه های فروخته شده",
+    "accounts-status": "وضعیت حساب های کاربری",
+    "categorized-consumption": "میزان مصرف تقسیم بندی شده"
+  }
+}
+
+
+
+

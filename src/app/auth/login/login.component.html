@@ -1,0 +1,19 @@
+<div class="container">
+  <div class="row">
+    <div class="col align-self-center form-container" >
+
+      <div class="account-wall">
+        <h1 class="text-center login-title">Admin Login</h1>
+        <img class="profile-img" src="../../../assets/images/login.png"
+             alt="">
+        <form class="form-signin">
+          <input name="email" [(ngModel)]="loginObj._username" type="text" class="form-control" autocomplete="new-password" placeholder="Email" required autofocus>
+          <br>
+          <input name="password" [(ngModel)]="loginObj._password" type="password" autocomplete="new-password" class="form-control" placeholder="Password" required>
+          <button class="btn btn-lg btn-primary btn-block" type="button" (click)="login()">
+            Sign in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,4 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark" >
+ <input class="text-box" name="message-text" [disabled]="!dataService.currentRoom" [(ngModel)]="messageText" type="text" placeholder="Type your message ..." (keyup)="sendMessage($event)">
+  <i class="fa fa-2x fa-send" style="position: absolute;right: 36px;cursor: pointer" (click)="sendMessage(null)"></i>
+</nav>

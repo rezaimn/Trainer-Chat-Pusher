@@ -1,0 +1,28 @@
+@import "../../../node_modules/bootstrap/dist/css/bootstrap.css";
+/**
+ * shared styles between all buttons
+ */
+.button-basic  {
+  border: 1px solid ;
+  border-radius: 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  height: 42px;
+}
+.button-success{
+  @extend .button-basic;
+  @extend .btn-success;
+}
+.button-danger{
+  @extend .button-basic;
+  @extend .btn-danger;
+}
+.button-primary{
+  @extend .button-basic;
+  @extend .btn-primary;
+}
+.button-disabled{
+  @extend .button-basic;
+  @extend .btn-secondary;
+}

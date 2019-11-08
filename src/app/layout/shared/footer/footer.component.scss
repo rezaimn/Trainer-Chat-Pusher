@@ -1,0 +1,29 @@
+@import "../../../../styles";
+:host{
+  position: absolute;
+  bottom: 0px;
+  right: 0;
+  width: 100%;
+  z-index: 10000;
+}
+.navbar-toggler:focus, .navbar-toggler:hover{
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, .1);
+}
+.navbar-toggler{
+  border: 0px;
+}
+.text-box{
+  height: 46px;
+  width: 100%;
+  padding-left: 24px;
+  font-size: 16px;
+  border: 0px;
+  padding-bottom: 4px;
+  padding-right: 60px;
+  border-radius: 29px;
+
+}
+.text-box:focus{
+  outline: none!important;
+}

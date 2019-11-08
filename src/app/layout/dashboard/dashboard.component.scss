@@ -1,0 +1,26 @@
+@import "../../../styles";
+.message-container{
+  height: 80vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-bottom: 12vh;
+}
+.card{
+  margin: 20px;
+  min-width: 200px;
+  height: fit-content;
+  p{
+    word-break: unset;
+  }
+  padding: 10px;
+  border-radius: 10px;
+  width: fit-content;
+}
+.my-message{
+  float: right;
+  background: rgba(134, 255, 132, 0.3);
+}
+.others-message{
+  float: left;
+  background: rgba(152, 255, 245, 0.3);
+}

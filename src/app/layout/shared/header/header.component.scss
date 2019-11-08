@@ -1,0 +1,17 @@
+@import "../../../../styles";
+:host{
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+.navbar-toggler:focus, .navbar-toggler:hover{
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, .1);
+}
+.navbar-toggler{
+  border: 0px;
+}
+.navbar{
+  height: 76px;
+}

@@ -1,0 +1,13 @@
+<nav class="sidebar" [ngClass]="{sidebarPushRight: isActive, collapsed: collapsed,'toggled':sideBarToggled}">
+  <div class="list-group">
+    <div *ngFor="let user of dataService.allUsers;let i=index" (click)="userSelect(i,user)" style="cursor: pointer">
+      <a class="list-group-item" [ngClass]="{'activate-item':user.selected}" >
+            <img  [style.borderColor]="user.presence=='online'?'#0A0':'#999'" [src]="user?.avatar_url"
+                  style="width: 26px;height:26px;border-radius: 26px;border:3px solid #999">
+        <span style="margin-left: 10px">{{user?.name}}</span>
+        <span *ngIf="user.unreadCount>0" class="unread-count">{{user?.unreadCount}}</span>
+      </a>
+
+    </div>
+  </div>
+</nav>

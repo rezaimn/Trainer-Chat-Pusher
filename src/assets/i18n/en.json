@@ -1,0 +1,156 @@
+{
+  "shared": {
+    "yes": "Yes",
+    "no": "No",
+    "direction": "ltr",
+    "save": "Save",
+    "cancel": "Cancel",
+    "edit": "Edit",
+    "delete": "Delete",
+    "add": "Add",
+    "close" :"Close",
+    "ok": "Ok","new":"New",
+    "all" : "all",
+    "confirm":"Are you sure to execute this operation?",
+    "confirm-title":"Confirmation",
+    "confirm-title-forget":"Confirm"
+  },
+
+  "auth": {
+    "user-name": "User Name",
+    "password": "Password",
+    "login": "Log In",
+    "forget-password": "Forget Password?",
+    "forget-password-message": "Write your username, we will send you your new password via sms.",
+    "user-name-message": " User Name is required ",
+    "password-message-required": "Password is required",
+    "password-message-length": "your password must contain at least 8 characters",
+    "forget-password-message-er": "User Name is required",
+    "new-password-message": "Write your new password",
+    "confirmed-password-message": "Confirm your password",
+    "password-match-message": "Your inserted passwords are not matched",
+    "get-new-password": "Get New Password via sms",
+    "new-password": "New Password",
+    "confirm-password": "Confirm Password",
+    "change-password": "Change Password",
+    "change-pass": "Change Pass",
+    "submit": "Submit"
+  },
+  "side-bar": {
+    "change-password":"Change Password",
+    "dashboard": "Dashboard",
+    "appliance-management":"Appliance Management",
+    "role-management":"Role Management",
+    "account-info":"Account Info",
+    "account-management": "Account Management",
+    "setting":"Settings",
+    "type-settings":"Type Settings",
+    "role-setting":"Role Settings"
+  },
+  "header": {
+    "profile": "Profile",
+    "language": "Language",
+    "English": "English",
+    "French": "French",
+    "Urdu": "Urdu",
+    "Spanish": "Spanish",
+    "Italian": "Italian",
+    "Farsi": "Farsi",
+    "German": "German",
+    "Simplified Chinese": "Simplified Chinese",
+    "Settings" : "Settings",
+    "Profile" : "Profile",
+    "pending-task" : "Pending Task",
+    "in-queue" : "In queue",
+    "mail" : "Mail",
+    "view-all" : "View All",
+    "collapse-sidebar" : "Collapse Sidebar",
+    "settings" : "settings",
+    "inbox" : "inbox",
+    "log-out" : "Log Out"
+  },
+  "page-header":{
+    "dashboard":"Dashboard",
+    "account-info": "Account Info",
+    "appliance-management": "Appliance Management",
+    "role-setting": "Role Setting",
+    "role-management": "Role Management",
+    "entity-type-management":"Entity Type Management"
+  },
+  "appliance": {
+    "appliance-management": "Appliance Management",
+    "add" : "Add Appliance",
+    "type": "Type",
+    "brand.model": "Brand/Model",
+    "energy-use": "Energy Consumption",
+    "energy": "Energy Consumption",
+    "type-id-message": "Select Your Appliance Type",
+    "brandModel-message": "Enter Your Appliances Brand/Model",
+    "energyConsumption-message": "Enter Energy Consumption",
+    "energyType-message": "Select Energy Consumption Type",
+    "new": "New Appliance",
+    "zero-message": " energy value must be more than zero"
+
+  },
+  "role-management": {
+
+  },
+  "setting": {
+    "setting": "setting",
+    "type": {
+      "type" : "type",
+      "faName": "Fa Name",
+      "enName": "En Name",
+      "code" : "Code",
+      "new": "new Entity",
+      "faNameValidation": "Enter Farsi Name",
+      "enNameValidation": "Enter English Name",
+      "codeValidation": "Enter Entity code"
+
+    },
+    "roleSetting": {
+      "add": "Add Role",
+      "new": "New Role",
+      "choose-module": "Choose Module",
+      "write": "write",
+      "write-all": "write all",
+      "read": "read",
+      "read-all": "read all",
+      "screenList": "Screen List"
+  },
+    "entities": {
+      "Device Types": "Device Types",
+      "Appliance Types": "Appliance Type"
+    }
+  },
+  "account": {
+    "account-info": "Account Info",
+    "firstName":"firstName",
+    "lastName":"last Name",
+    "SNN": "SNN",
+    "mobileNumber": "mobile Number",
+    "email": "email",
+    "serialNumber":"serial Number of Vera",
+    "hardwareKey": "hardware Key",
+    "quantity":"quantity",
+    "deviceName":"deviceName",
+    "contract" : "contract",
+    "packageConfig" : "choose package",
+    "statistics" : "statistics",
+    "contractStartDate" : "contract StartDate",
+    "contractEndDate" : "contract endDate",
+    "fromDate" : "from Date",
+    "endDate" : "end Date",
+    "selectAppliance" : "select appliance",
+    "selectVera" : "select controller",
+    "showStatistics" : "show Statistics",
+    "contractStatus" : "contract Status"
+  },
+  "dashboard": {
+    "account-statistics": "Account Statistics",
+    "deviceType-statistics": "Sold DeviceType Statistics",
+    "accounts-status": "Accounts Status",
+    "categorized-consumption": "Categorized Consumption"
+  }
+
+}

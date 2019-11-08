@@ -1,0 +1,9 @@
+<app-header (toggleEvent)="toggleSidebar($event)"></app-header>
+<app-sidebar [sideBarToggled]="toggled" (collapsedEvent)="receiveCollapsed($event)"></app-sidebar>
+<section class="main-container" [ngClass]="{'toggled':toggled,collapsed: collapedSideBar}">
+  <app-alert-message [style.left]="toggled ? '250px':'2.5%'"></app-alert-message>
+  <router-outlet></router-outlet>
+  <div class="blur"></div>
+
+</section>
+
