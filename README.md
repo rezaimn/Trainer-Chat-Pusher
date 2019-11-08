@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ##Screen Record
 
-![alt text](./src/screen-records/1.gif) 
+![alt text](./screen-records/1.gif) 
 
 ## Development server
 
